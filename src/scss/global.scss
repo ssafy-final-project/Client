@@ -1,0 +1,11 @@
+// src/assets/global.scss
+
+// Google Fonts에서 Noto Sans KR 가져오기
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+
+// 프로젝트 전역 기본 폰트 설정
+* {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}

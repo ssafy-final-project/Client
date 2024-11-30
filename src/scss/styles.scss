@@ -1,0 +1,49 @@
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+
+$enable-cssgrid-classes: false;
+$enable-cssgrid: true;
+
+// Bootstrap의 나머지 스타일을 불러옴
+@import "bootstrap";
+
+.wrapper {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+  padding: 0px;
+  align-items: center;
+  border: 1px solid #1E41D0;
+  border-radius: 3px;
+  position: relative;
+}
+
+.deals-box {
+  background-color: #326CF9;
+  width: 100%;
+  height: 21px;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  color: white;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.price-box {
+  width: 100%;
+  height: 24px;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  font-weight: 700;
+  font-size:15px;
+}
+
+.wrapper > svg {
+    position: absolute;
+    left: 40%;
+    bottom: -9px;
+    z-index: 2;
+}
